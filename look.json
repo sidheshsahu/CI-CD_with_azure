@@ -1,0 +1,22 @@
+[
+    {
+        "p_url_path": "sidheshsahu/CI-CD_with_azure/refs/heads/main/blinkit_customer_feedback.csv",
+        "p_folder_name": "blinkit_customer_feedback",
+        "p_file_name": "blinkit_customer_feedback.csv"
+    },
+    {
+        "p_url_path": "sidheshsahu/CI-CD_with_azure/refs/heads/main/blinkit_customers.csv",
+        "p_folder_name": "blinkit_customers",
+        "p_file_name": "blinkit_customers.csv"
+    },
+    {
+        "p_url_path": "sidheshsahu/CI-CD_with_azure/refs/heads/main/blinkit_orders.csv",
+        "p_folder_name": "blinkit_orders",
+        "p_file_name": "blinkit_orders.csv"
+    },
+    {
+        "p_url_path": "sidheshsahu/CI-CD_with_azure/refs/heads/main/blinkit_products.csv",
+        "p_folder_name": "blinkit_products",
+        "p_file_name": "blinkit_products.csv"
+    }
+]
