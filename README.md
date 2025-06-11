@@ -53,11 +53,9 @@ dim_customers
 
 dim_orders
 
-dim_products
-
 dim_feedback
 
-fact_sales (joins dimensions)
+fact_table(joins dimensions)
 
 📊 -**4. BI & Reporting – Power BI**:
 Connected Power BI directly to Synapse external tables via Serverless SQL endpoint
