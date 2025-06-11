@@ -25,7 +25,7 @@ Destination: Azure Data Lake Storage Gen2 (ADLS) – Bronze layer
 
 Data organized into respective folders for each entity
 
-🥈 **2. Transformation – Silver Layer (Azure Databricks)**
+🥈 **2. Transformation – Silver Layer (Azure Databricks)**:
 Utilized Azure Databricks notebooks with Spark to:
 
 Read raw data from Bronze
