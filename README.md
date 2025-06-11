@@ -8,7 +8,7 @@ Blinklytics is a fully integrated Azure-based Data Engineering project that repl
 
 ## Project Architecture Overview
 
-🥉**1. Ingestion – Bronze Layer (Azure Data Factory)**
+🥉**1. Ingestion – Bronze Layer (Azure Data Factory)**:
 Developed a parameterized pipeline in Azure Data Factory (ADF) to dynamically ingest multiple CSV files:
 
 customers.csv
