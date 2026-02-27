@@ -8,13 +8,13 @@ It is a fully integrated Azure-based Data Engineering project that replicates a 
 
 Developed a parameterized pipeline in Azure Data Factory (ADF) to dynamically ingest multiple CSV files:
 
-customers.csv
+-customers.csv
 
-orders.csv
+-orders.csv
 
-products.csv
+-products.csv
 
-feedback.csv
+-feedback.csv
 
 Source: GitHub
 
@@ -23,6 +23,7 @@ Destination: Azure Data Lake Storage Gen2 (ADLS) – Bronze layer
 Data organized into respective folders for each entity
 
 **2. Transformation – Silver Layer (Azure Databricks)**:
+
 Utilized Azure Databricks notebooks with Spark to:
 
 Read raw data from Bronze
