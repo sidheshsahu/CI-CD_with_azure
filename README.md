@@ -4,16 +4,13 @@
 It is a fully integrated Azure-based Data Engineering project that replicates a real-world retail analytics pipeline using Blinkit customer, order, product, and feedback data. It demonstrates a complete CI/CD-enabled modern data architecture using Azure Data Factory, Azure Data Lake, Azure Databricks, and Azure Synapse Analytics, concluding with a Power BI star schema visualization.
 
 ## Project Architecture Overview
+
+
 **1. Ingestion – Bronze Layer (Azure Data Factory)**:
-
 Developed a parameterized pipeline in Azure Data Factory (ADF) to dynamically ingest multiple CSV files:
-
 -customers.csv
-
 -orders.csv
-
 -products.csv
-
 -feedback.csv
 
 **Source:** GitHub
