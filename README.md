@@ -16,9 +16,9 @@ Developed a parameterized pipeline in Azure Data Factory (ADF) to dynamically in
 
 -feedback.csv
 
-Source: GitHub
+**Source:** GitHub
 
-Destination: Azure Data Lake Storage Gen2 (ADLS) – Bronze layer
+**Destination:** Azure Data Lake Storage Gen2 (ADLS) – Bronze layer
 
 Data organized into respective folders for each entity
 
@@ -32,20 +32,21 @@ Perform data cleaning, type casting, and transformation logic
 
 Wrote the cleaned data in Parquet format to the Silver layer of ADLS
 
-🥇**3. Data Warehousing – Gold Layer (Azure Synapse Analytics)**:
+**3. Data Warehousing – Gold Layer (Azure Synapse Analytics)**:
+
 Implemented a data warehouse using Azure Synapse Analytics (Serverless SQL Pool):
 
 Created:
 
-EXTERNAL DATA SOURCE
+1.EXTERNAL DATA SOURCE<br>
 
-DATABASE SCOPED CREDENTIAL
+2.DATABASE SCOPED CREDENTIAL
 
-EXTERNAL FILE FORMAT
+3.EXTERNAL FILE FORMAT
 
-EXTERNAL TABLES over Parquet files from Silver layer
+4.EXTERNAL TABLES over Parquet files from Silver layer
 
-Designed dimensional model with:
+5.Designed dimensional model with:
 
 dim_customers
 
