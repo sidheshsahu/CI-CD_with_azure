@@ -9,8 +9,11 @@ It is a fully integrated Azure-based Data Engineering project that replicates a 
 Developed a parameterized pipeline in Azure Data Factory (ADF) to dynamically ingest multiple CSV files:
 
 -customers.csv
+
 -orders.csv
+
 -products.csv
+
 -feedback.csv
 
 **Source:** GitHub
@@ -54,6 +57,7 @@ dim_feedback
 fact_table(joins dimensions)
 
 **4. BI & Reporting – Power BI**:
+
 Connected Power BI directly to Synapse external tables via Serverless SQL endpoint
 
 Built and modeled a Star Schema
@@ -67,6 +71,7 @@ Customer Feedback Trends
 Product Performance
 
 **5. CI/CD – DevOps Automation**:
+
 Implemented CI/CD pipelines for both ADF and Synapse using Azure DevOps
 
 Version control and collaboration via Git integration
