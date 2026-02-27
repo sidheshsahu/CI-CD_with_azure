@@ -8,7 +8,6 @@ It is a fully integrated Azure-based Data Engineering project that replicates a 
 
 **1. Ingestion – Bronze Layer (Azure Data Factory)**:
 
-
 Developed a parameterized pipeline in Azure Data Factory (ADF) to dynamically ingest multiple CSV files:
 
 -customers.csv
@@ -23,17 +22,15 @@ Developed a parameterized pipeline in Azure Data Factory (ADF) to dynamically in
 
 **Destination:** Azure Data Lake Storage Gen2 (ADLS) – Bronze layer
 
-Data organized into respective folders for each entity
-
 **2. Transformation – Silver Layer (Azure Databricks)**:
 
 Utilized Azure Databricks notebooks with Spark to:
 
-Read raw data from Bronze
+-Read raw data from Bronze
 
-Perform data cleaning, type casting, and transformation logic
+-Perform data cleaning, type casting, and transformation logic
 
-Wrote the cleaned data in Parquet format to the Silver layer of ADLS
+-Wrote the cleaned data in Parquet format to the Silver layer of ADLS
 
 **3. Data Warehousing – Gold Layer (Azure Synapse Analytics)**:
 
@@ -51,13 +48,13 @@ Created:
 
 5.Designed dimensional model with:
 
-dim_customers
+-dim_customers
 
-dim_orders
+-dim_orders
 
-dim_feedback
+-dim_feedback
 
-fact_table(joins dimensions)
+-fact_table(joins dimensions)
 
 **4. BI & Reporting – Power BI**:
 
@@ -67,11 +64,11 @@ Built and modeled a Star Schema
 
 Created dashboards for:
 
-Sales Insights
+-Sales Insights
 
-Customer Feedback Trends
+-Customer Feedback Trends
 
-Product Performance
+-Product Performance
 
 **5. CI/CD – DevOps Automation**:
 
