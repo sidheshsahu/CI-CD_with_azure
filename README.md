@@ -9,11 +9,8 @@ It is a fully integrated Azure-based Data Engineering project that replicates a 
 Developed a parameterized pipeline in Azure Data Factory (ADF) to dynamically ingest multiple CSV files:
 
 -customers.csv
-
 -orders.csv
-
 -products.csv
-
 -feedback.csv
 
 **Source:** GitHub
@@ -56,7 +53,7 @@ dim_feedback
 
 fact_table(joins dimensions)
 
-📊 -**4. BI & Reporting – Power BI**:
+**4. BI & Reporting – Power BI**:
 Connected Power BI directly to Synapse external tables via Serverless SQL endpoint
 
 Built and modeled a Star Schema
@@ -69,7 +66,7 @@ Customer Feedback Trends
 
 Product Performance
 
-⚙️ **5. CI/CD – DevOps Automation**:
+**5. CI/CD – DevOps Automation**:
 Implemented CI/CD pipelines for both ADF and Synapse using Azure DevOps
 
 Version control and collaboration via Git integration
@@ -83,13 +80,14 @@ Deployment of Synapse artifacts (credentials, formats, tables)
 Enabled modular infrastructure delivery and automated release management
 
 
-## 📂 Dataset
+## Dataset
 
 Dataset consists of the following Excel files:
 - Customers
 - Products
 - Orders
 - Customer_Feedback
+
 ## Objectives
 
 Designed and implemented a dynamic ingestion pipeline in Azure Data Factory to extract structured Blinkit retail data from GitHub to Azure Data Lake (Bronze layer).
@@ -102,7 +100,7 @@ Built and modeled a Star Schema in Power BI with fact_sales, dim_customers, dim_
 
 Automated CI/CD pipelines in Azure DevOps for ADF and Synapse using ARM templates, ensuring version control, continuous deployment, and modular infrastructure delivery.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Azure Data Factory (ADF)
 - Azure Data Lake Storage Gen2 (ADLS)
